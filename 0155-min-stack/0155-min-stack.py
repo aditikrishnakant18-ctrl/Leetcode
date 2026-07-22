@@ -1,6 +1,5 @@
 class MinStack:
     def __init__(self):
-        # Stack holds pairs: [element_value, current_min]
         self.stack = []
 
     def push(self, val: int) -> None:
